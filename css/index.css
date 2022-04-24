@@ -40,3 +40,15 @@ a:before{
   transform: rotate(360deg);
   transform: scale(1.10);
 }
+
+h1{
+  font-family: 'Press Start 2P, sans-serif';
+  font-size: 40px;
+  font-weight: 400;
+}
+
+h2{
+  font-family: 'Press Start 2P, sans-serif';
+  font-size: 30px;
+  font-weight: 400;
+}
