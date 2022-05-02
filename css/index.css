@@ -4,8 +4,8 @@ header {
   background-color: #c7234f ;
   border-bottom: 10px solid #000;
   padding: 10px 20px;
-
 }
+
 nav{
   text-align: right;
   }
@@ -18,26 +18,13 @@ a{
     font-family: "Fira code", Arial, Helvetica, sans-serif;
     font-weight: 500;
     text-decoration: none;
-    margin-right: 30px;
-     
+    margin-right: 30px;     
 }
+
 a:before{
   content: " ";
   background-color: #23c79b;
   width: 10px;
   height: 10px;
   margin-right: 10px;
-}
-
-#button{
-  display: inline-block;
-  background-color: #23c79b;
-   padding: 18px 20px;
-  box-shadow: 5px  5px  0 black;
-  margin-right: 0px;
-}
-
-#button:hover {
-  transform: rotate(360deg);
-  transform: scale(1.10);
 }
