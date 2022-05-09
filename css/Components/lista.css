@@ -1,0 +1,11 @@
+.lista{
+    display: inline-block;
+    position: absolute;        
+    background-color: #5421e0;
+    width: 960px;
+    height: 480px;
+    left: 235px;
+    top: 1037px;
+    justify-content: space-between;
+}
+
