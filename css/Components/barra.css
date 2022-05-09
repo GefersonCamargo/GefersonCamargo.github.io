@@ -10,9 +10,9 @@
 }
 
 .barra::after{
-    content: " ";
+    content: "";
     background-color: #ffffff;
     width: 100px;
     height: 10px;
-    margin-right: 10px;
+    margin-right: 0px;    
 }
