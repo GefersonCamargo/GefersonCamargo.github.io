@@ -1,0 +1,18 @@
+.project-logo {
+    background-color: #7C5e99;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 280px;
+    box-shadow: 10px 10px  0 #FFF ;
+        
+}
+
+.project-logo.-blue {
+    background-color: #4C5B84;
+}
+
+.project-logo.-gray {
+    background-color: #F25A70;
+}
+
