@@ -17,5 +17,10 @@
 }
 
 .main-section .main-title.-second{
-    margin-top: 50px;
+    margin-top: 60px;
+}
+
+.main-section.-secondbg{
+    background-color: #4C5B84;
+    border-bottom: 10px solid #000;
 }
