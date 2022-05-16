@@ -1,4 +1,4 @@
-.banner-site { 
+.main-banner { 
     box-sizing: border-box; 
     background-image: url(../../img/background_photo.png);
     background-repeat: no-repeat;
@@ -10,17 +10,17 @@
      
 }
 
-.banner-site .wrapper {
+.main-banner .wrapper {
     display: flex;
     flex-direction: column;
     width: 640px;
 }
 
-.banner-site .main-box {
+.main-banner .main-box {
     margin-bottom: 40px;
 }
 
-.banner-site .navigation {
+.main-banner .navigation {
     display:flex;
     justify-content: space-around ;
 }
