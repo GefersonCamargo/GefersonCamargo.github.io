@@ -1,4 +1,4 @@
-.section{ 
+.main-section{ 
     background-color: #ca1b7b;   
     border-bottom: 10px solid rgb(85, 8, 139);
     padding-top: 50px;
@@ -7,15 +7,15 @@
     
 }
 
-.section .main-title {
+.main-section .main-title {
     margin-bottom: 60px;
 }
 
-.section.-second{
+.main-section.-second{
     background-color: #000;
     border-bottom: 10px solid #ca1b7b;    
 }
 
-.section .main-title.-second{
+.main-section .main-title.-second{
     margin-top: 50px;
 }
