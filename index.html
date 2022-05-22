@@ -23,18 +23,20 @@
         <link rel="stylesheet" href="/css/Components/wrapper-card.css">        
         <link rel="stylesheet" href="/css/Components/progress-bar.css">
         <link rel="stylesheet" href="/css/Components/main-description.css">
+        <link rel="stylesheet" href="/css/Components/main-carousel.css">
         <link rel="stylesheet" href="/css/Components/button-arrow.css">
+        <link rel="stylesheet" href="/css/Components/node-card.css">
                                       
     </head>
     <body>
         <header class="main-header">
             <img src="/img/new_logo_70px-transparente.png" alt="logo do site">
             <nav>
-                <a class="main-action" href="" lang="en">Skills</a>
-                <a class="main-action" href="">Projeto</a>
-                <a class="main-action" href="">Sobre</a>
-                <a class="main-action" href="">Contatos</a>
-                <a class="main-button" href="" lang="en">Download CV</a>
+                <a class="main-action" href="#menu1" lang="en">Skills</a>
+                <a class="main-action" href="#menu2">Projeto</a>
+                <a class="main-action" href="#menu3">Sobre</a>
+                <a class="main-action" href="#menu4">Contatos</a>
+                <a class="main-button" href="#menu5" lang="en">Download CV</a>
             </nav>       
         </header>
                         
@@ -52,7 +54,7 @@
         </section>
         
         <section class="main-section"> 
-            <h1 class="main-title -second">Skills</h1>
+            <h1 id="menu1" class="main-title -second">Skills</h1>
 
             <div class="wrapper-skill">
                 <article class="skill-tec">
@@ -130,7 +132,7 @@
             </div>
         </section>
         <section class="main-section -second">
-            <h1 class="main-title -second">Projetos</h1>
+            <h1 id="menu2" class="main-title -second">Projetos</h1>
                 <div class="wrapper-card">
                     <a href="https://www.firedlabs.com" target="_blank">
                         <figure class="project-logo">
@@ -150,15 +152,40 @@
                 </div>                  
         </section>
         <section class="main-section -secondbg">
-            <h1 class="main-title -second">Sobre</h1>
-            <p class="main-description">Hoje, instrutor e desenvolvedor FrontEnd/UX pela CollabCode, Marco já trabalhou nas mais diversas áreas. Foi palhaço, entrou na área de TI como desenvolvedor HMI/PLC e gosta de ir descobrindo seu caminho conforme o percorre. Marco também tem uma crescente presença em comunidades de UX e Front-end, trabalhando para uní-las, palestra em empresas e eventos como o WebBR, escreve em diversos blogs como o da Caelum, o Pinceladas da Web e seu Medium, quando não está jogando Airsoft ou trocando ideias com amigos.
+            <h1 id="menu3" class="main-title -second">Sobre</h1>
+            <p class="main-description">Hoje, analista de suporte III na empresa X2TI, e com mais de 6 anos de experiência na área de infraestrutura. estudadnte da área de desenvolvimento de sistemas, de dor FrontEnd/UX pela CollabCode, Marco já trabalhou nas mais diversas áreas. Foi palhaço, entrou na área de TI como desenvolvedor HMI/PLC e gosta de ir descobrindo seu caminho conforme o percorre. Marco também tem uma crescente presença em comunidades de UX e Front-end, trabalhando para uní-las, palestra em empresas e eventos como o WebBR, escreve em diversos blogs como o da Caelum, o Pinceladas da Web e seu Medium, quando não está jogando Airsoft ou trocando ideias com amigos.
             </p>
-                <button class="button-arrow -left"><span class="content">Avançar</span></button>
-                <figure class="node-card">
-                    <figcaption class="title">2014</figcaption>
-                    <img src="/img/new_logo_70px-color.png" alt="logo" class="logo">
-                </figure>
-                <button class="button-arrow -right"><span class="content">Voltar</span></button>            
+
+            <section class="main-carousel">  
+                <button class="button-arrow -left"><span class="content">Avançar</span>
+                </button>                  
+                    <figure class="node-card">
+                        <figcaption class="title">2014</figcaption>
+                            <div class="logo">
+                                <img src="" alt="logo Shopping">
+                            </div>
+                    </figure> 
+                        <figure class="node-card">
+                            <figcaption class="title">2014</figcaption>
+                                <div class="logo">
+                                    <img src="/img/logo-simers.png" alt="logo SIMERS">
+                                </div>
+                        </figure>
+                        <figure class="node-card">
+                            <figcaption class="title">2018</figcaption>
+                                <div class="logo">
+                                    <img src="" alt="logo Multimidia">
+                                </div>
+                        </figure>
+                        <figure class="node-card">
+                            <figcaption class="title">2019</figcaption>
+                                <div class="logo">
+                                    <img src="/img/logo-x2ti.png" alt="logo LocalWeb">
+                                </div>
+                        </figure>                                                          
+                <button class="button-arrow -right"><span class="content">Voltar</span>
+                </button>
+            </section>                
         </section>            
     </body> 
 </html>
