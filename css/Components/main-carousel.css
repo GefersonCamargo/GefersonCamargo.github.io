@@ -2,8 +2,8 @@
     display: flex;
     justify-content: space-between;
     position: relative;
-    padding-left: 90px;
-    padding-right: 90px;
+    padding-left: 85px;
+    padding-right: 85px;
 }
 
 .main-carousel::after{
@@ -20,7 +20,8 @@
 
 .main-carousel::before{
     display: block;
-    content: '';
+    box-sizing: border-box;
+    content: '';    
     position: absolute;
     left: 0px;    
     top: 38px;
@@ -40,4 +41,15 @@
 
 .main-carousel .button-arrow.-right {
     right: 15px;    
+}
+
+.main-carousel .items {
+    width: 100%;
+    overflow: hidden;
+}
+
+.main-carousel .elements {
+    display: flex;
+    justify-content: space-between;
+    transition: transform 100ms ease-in-out;
 }
